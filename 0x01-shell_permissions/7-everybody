@@ -1,2 +1,3 @@
-#!/bin/bashhos 
+#!/bin/bash
+chmod +wx hellos 
 
