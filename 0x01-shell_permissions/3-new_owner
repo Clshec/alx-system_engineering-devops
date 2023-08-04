@@ -1,1 +1,2 @@
-#!/bin/bashhii
+#!/bin/bash
+sudo chown betty hello
