@@ -1,2 +1,2 @@
-#/bin/bash
-cp -t ../ *.html | grep -v '^'
+#!/bin/bash
+ find . -name "*.html" -exec cp {} ../ \;
