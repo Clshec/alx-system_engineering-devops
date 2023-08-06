@@ -1,2 +1,2 @@
-#/bin/bash
+#!/bin/bash
 find . -type f -name "[A-Z]*" -exec mv {} /tmp/u 2>/dev/null | grep -v "No such file or directory"
