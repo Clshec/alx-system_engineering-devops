@@ -10,11 +10,18 @@
 
 # hlsearch on (H) or off (h):
 ~h
+# Last Search Pattern:
+~MSle0~/bin
+
 # Command Line History (newest to oldest):
+:wq
+|2,0,1692295796,,"wq"
 :q!
 |2,0,1692294931,,"q!"
 
 # Search String History (newest to oldest):
+?/bin/bash
+|2,1,1692295758,47,"bin/bash"
 
 # Expression History (newest to oldest):
 
@@ -25,14 +32,39 @@
 # Registers:
 
 # File marks:
-'0  1  0  ~/0x02_vi/end_of_the_line
-|4,48,1,0,1692294931,"~/0x02_vi/end_of_the_line"
+'0  19  3  ~/Betty/betty
+|4,48,19,3,1692295797,"~/Betty/betty"
+'1  19  3  ~/Betty/betty
+|4,49,19,3,1692295777,"~/Betty/betty"
+'2  1  0  ~/0x02_vi/end_of_the_line
+|4,50,1,0,1692294931,"~/0x02_vi/end_of_the_line"
 
 # Jumplist (newest first):
+-'  19  3  ~/Betty/betty
+|4,39,19,3,1692295797,"~/Betty/betty"
+-'  19  3  ~/Betty/betty
+|4,39,19,3,1692295777,"~/Betty/betty"
+-'  1  0  ~/Betty/betty
+|4,39,1,0,1692295718,"~/Betty/betty"
+-'  1  0  ~/Betty/betty
+|4,39,1,0,1692295718,"~/Betty/betty"
+-'  1  0  ~/0x02_vi/end_of_the_line
+|4,39,1,0,1692294931,"~/0x02_vi/end_of_the_line"
+-'  1  0  ~/0x02_vi/end_of_the_line
+|4,39,1,0,1692294931,"~/0x02_vi/end_of_the_line"
+-'  1  0  ~/0x02_vi/end_of_the_line
+|4,39,1,0,1692294931,"~/0x02_vi/end_of_the_line"
 -'  1  0  ~/0x02_vi/end_of_the_line
 |4,39,1,0,1692294931,"~/0x02_vi/end_of_the_line"
 
 # History of marks within files (newest to oldest):
+
+> ~/Betty/betty
+	*	1692295783	0
+	"	19	3
+	^	19	4
+	.	19	4
+	+	19	4
 
 > ~/0x02_vi/end_of_the_line
 	*	1692294296	0
